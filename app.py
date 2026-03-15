@@ -40,7 +40,7 @@ if st.sidebar.button("Add Event"):
             st.sidebar.error("❌ Time conflict detected!")
         else:
             st.session_state.events.append(new_event)
-            st.sidebar.success("✅ Event added!")
+            st.sidebar.success("✅  added!")
 
 st.sidebar.divider()
 
